@@ -1,0 +1,221 @@
+Show
+	Class Incubator
+	SetBorderColor 255 255 255
+	SetBackgroundColor 70 0 3
+	SetFontSize 45
+	MinimapIcon 2 Red Circle
+	PlayEffect Red
+	CustomAlertSound "Ohshit.mp3"
+	DisableDropSound
+
+Show
+	Class Map
+	SetBorderColor 255 255 255
+	SetBackgroundColor 70 0 3
+	SetFontSize 45
+	MinimapIcon 2 Blue Circle
+	PlayEffect Blue
+	CustomAlertSound "pan t.mp3"
+	DisableDropSound
+
+Show
+	ShaperItem true
+	SetBorderColor 255 255 255
+	SetBackgroundColor 70 0 3
+	SetFontSize 45
+	MinimapIcon 2 Red Circle
+	PlayEffect Red
+	PlayAlertSound 5 100
+
+Show
+	ElderItem true
+	SetBorderColor 255 255 255
+	SetBackgroundColor 70 0 3
+	SetFontSize 45
+	MinimapIcon 2 Red Circle
+	PlayEffect Red
+	PlayAlertSound 5 100
+
+Show
+	Identified true
+	SetBorderColor 255 255 255
+	PlayAlertSound 5 100
+	SetBackgroundColor 70 0 3
+
+Show  
+	BaseType "Stone Hammer" "Gavel" "Rock Breaker" "Sorcerer Boots" "Jewelled Foil" "Occultist's Vestment" "Deicide Mask" "Sapphire Flask" "Assassin's Garb" "Glorious Plate" "Prophecy Wand" "Splinter"
+	Rarity Normal 
+	SetBorderColor 255 255 255
+	SetBackgroundColor 70 0 3
+
+Show  
+	BaseType "Stone of Passage"
+	SetBorderColor 255 255 255
+	PlayAlertSound 5 100
+	SetBackgroundColor 70 0 3
+	MinimapIcon 2 Red Circle
+	PlayEffect Red
+	SetFontSize 45
+
+Show
+	Class "Misc Map Items" "Leaguestone" "Map Fragments"
+	SetBorderColor 255 255 255
+	PlayAlertSound 5 100
+	SetBackgroundColor 70 0 3
+	SetFontSize 45
+
+Show
+	BaseType "Orb of Annulment" "Orb of Binding" "Orb of Horizons" "Harbinger's Orb" "Engineer's Orb" "Ancient Orb" "Annulment Shard" "Binding Shard" "Horizon Shard" "Harbinger's Shard" "Engineer's Shard" "Ancient Shard" "Chaos Shard" "Regal Shard"
+	SetBorderColor 255 255 255
+	SetBackgroundColor 70 0 3
+	MinimapIcon 2 Blue Circle
+	CustomAlertSound "geb di wa.mp3"
+	DisableDropSound
+
+Show
+	BaseType "Divine Orb" "Regal Orb" "Chaos Orb" "Blessed Orb" "Cartographer's Chisel" "Eternal Orb" "Gemcutter's Prism" "Vaal Orb" "Sextant" "Opal Ring" "Steel Ring" "Crystal Belt" "Mirror Shard" "Exalted Shard" "Timeworn Reliquary Key" "Treasure Key" "Stacked Deck"
+	SetBorderColor 255 255 255
+	PlayAlertSound ShMirror 300
+	SetBackgroundColor 70 0 3
+	SetFontSize 45
+	MinimapIcon 2 Red Circle
+	PlayEffect Red
+	CustomAlertSound "Ohshit.mp3"
+	DisableDropSound
+
+Show
+	BaseType "Mirror of Kalandra"
+	SetBorderColor 255 255 255
+	PlayAlertSound ShMirror 300
+	SetBackgroundColor 70 0 3
+	SetFontSize 45
+	MinimapIcon 0 Red Star
+	PlayEffect Red
+	CustomAlertSound "mirror.mp3"
+	DisableDropSound
+
+Show
+	BaseType "Exalted Orb"
+	SetBorderColor 255 255 255
+	PlayAlertSound ShMirror 300
+	SetBackgroundColor 70 0 3
+	SetFontSize 45
+	MinimapIcon 0 Red Star
+	PlayEffect Red
+	CustomAlertSound "ex.mp3"
+	DisableDropSound
+
+Show
+	BaseType "Orb of Fusing" "Orb of Alchemy" "Orb of Regret" "Orb of Chance" "Jeweller's Orb" "Bone Helmet"
+	SetBorderColor 255 255 255
+	SetBackgroundColor 70 0 3
+	SetFontSize 45
+	MinimapIcon 2 Blue Circle
+	PlayEffect Blue
+	CustomAlertSound "geb pom t.mp3"
+	DisableDropSound
+
+Show
+	Class Gem
+	Quality > 9
+	SetBorderColor 255 255 255
+	PlayAlertSound 5 100
+	SetBackgroundColor 70 0 3
+	MinimapIcon 2 Blue Circle
+	PlayEffect Blue
+
+Show
+	Class Gem
+	BaseType "Empower" "Enhance" "Enlighten" "Portal" "Vaal Haste"
+	SetBorderColor 255 255 255
+	PlayAlertSound 5 100
+	SetBackgroundColor 70 0 3
+	MinimapIcon 2 Red Circle
+	PlayEffect Red
+
+Show
+	Class Gem
+
+Show
+	Class "Currency" "Utility Flasks"
+	SetBackgroundColor 70 0 3
+
+Show
+	Class Amulet Ring Belt
+	Rarity Normal
+	SetBorderColor 255 89 89
+	ItemLevel >= 75
+	SetFontSize 15
+
+Show
+	Class Amulet Ring Belt
+	Rarity Normal
+	SetBorderColor 4 255 218
+	ItemLevel >= 60
+	SetFontSize 15
+
+Show
+	Sockets 6
+	SetBorderColor 255 255 255
+	SetBackgroundColor 70 0 3
+	SetFontSize 45
+	MinimapIcon 2 Red Circle
+	PlayEffect Red
+	CustomAlertSound "hog roo.mp3"
+	DisableDropSound
+
+Show
+	LinkedSockets >= 5
+	SetBorderColor 255 255 255
+	PlayAlertSound 5 100
+	SetBackgroundColor 70 0 3
+	SetFontSize 45
+	MinimapIcon 2 Red Circle
+	PlayEffect Red
+
+Show
+	BaseType Flask
+	Quality > 5
+	SetBorderColor 255 255 255
+	SetBackgroundColor 70 0 3
+
+Show
+	Rarity Rare
+	Class Amulet Ring Belt
+	PlayAlertSound 4 100
+	SetBorderColor 255 255 255
+	SetBackgroundColor 70 0 3
+
+Show
+	Rarity Rare
+	SetBorderColor 255 255 255
+	SetBackgroundColor 70 0 3
+
+Show
+	Rarity Unique
+	SetBorderColor 255 255 255
+	SetBackgroundColor 70 0 3
+
+Show
+	Class Card
+	SetBorderColor 255 255 255
+	SetBackgroundColor 70 0 3
+	MinimapIcon 2 Blue Circle
+	PlayEffect Blue
+
+Show
+	BaseType Sacrifice Mortal
+	SetBackgroundColor 70 0 3
+
+Show
+	Class Jewel
+	SetBorderColor 255 255 255
+	PlayAlertSound 6 100
+	SetBackgroundColor 70 0 3
+
+Show
+	SocketGroup RGB
+	SetBackgroundColor 70 0 3
+
+Show
+	SetFontSize 15
